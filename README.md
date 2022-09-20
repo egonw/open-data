@@ -9,8 +9,9 @@ flowchart TB
     id2{Do I have to?}
     id2{Did you check\nthe funder\nrequirements?}
     done((Done))
-    giveup((Done))
     style done fill:#0f0
+    giveup((Done))
+    style giveup fill:#0f0
     id3(Check the contract\nwith your funder)
     id4{Did you already\nchoose\na license?}
     start --->id1
